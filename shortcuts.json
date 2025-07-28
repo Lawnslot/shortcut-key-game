@@ -1,0 +1,14 @@
+[
+  {
+    "description": "選択した部分をコピーする",
+    "keys": ["meta", "c"]
+  },
+  {
+    "description": "選択した部分を切り取る",
+    "keys": ["meta", "x"]
+  },
+  {
+    "description": "貼り付ける",
+    "keys": ["meta", "v"]
+  }
+]
