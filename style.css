@@ -17,3 +17,25 @@ body {
 #score, #timer {
   font-weight: bold;
 }
+
+#keyboard {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.key {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.key.active {
+  background-color: #90cdf4;
+  border-color: #3182ce;
+}
