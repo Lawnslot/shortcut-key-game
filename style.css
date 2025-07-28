@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f4f8;
+  margin: 20px;
+}
+.keyboard {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 12px;
+  user-select: none;
+}
+.key.active {
+  background-color: #90cdf4;
+  border-color: #3182ce;
+}
+.key.w1 { width: 48px; }
+.key.w1_5 { width: 72px; }
+.key.w2 { width: 96px; }
+.key.w2_5 { width: 120px; }
+.key.w3 { width: 144px; }
+.key.w5 { width: 240px; }
